@@ -1,0 +1,27 @@
+.board-list-item{
+    display: table;
+    border-bottom: 1px solid silver;
+
+  &:hover {
+    background-color: #efefef;
+    cursor: pointer;
+  }
+
+  > div {
+    display: table-cell;
+    width: 100px;
+
+    &:first-child {
+      width: 200px;
+    }
+  }
+
+
+}
+
+.aaa{
+  a {
+    text-decoration: none;
+    color : black;
+  }
+}
